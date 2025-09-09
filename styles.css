@@ -180,3 +180,56 @@ textarea {
     transform: translateY(-50%);
     margin-left: 8px;
 }
+
+.container-description {
+    width: 422px;
+}
+
+.main-img {
+    border-radius: 8px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-img {
+    height: 368px;
+    padding: 24px 16px;
+    background-color: var(--secundary-color);
+    border-radius: 8px;
+}
+
+.container-upload-img button {
+    margin: 16px 0 8px 0;
+    background-color: var(--itens-background);
+    border: 1px solid var(--secundary-color);
+    border-radius: 10px;
+    color: var(--secundary-color);
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+}
+
+.container-upload-img button::after {
+    content: "";
+    background-image: url("./img/upload.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 8px;
+}
+
+.container-img-name {
+    display: flex;
+    gap: 8px;
+    color: var(--secundary-color);
+    font-size: 15px;
+}
